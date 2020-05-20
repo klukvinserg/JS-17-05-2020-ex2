@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex2</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    <ul>
+        <li id="thisPc"><span onclick="myActionOne(event)">This PC</span></li>
+        <ul type="circle" id="localCInner">
+            <li><span onclick="myActionTwo(event)">Local dick (C:)</span></li>
+            <ul id="localCInnerList">
+                <li><span>Program Files</span></li>
+                <li><span>Users</span></li>
+                <li><span>Windows</span></li>
+            </ul>
+        </ul>
+        <ul type="circle" id="localDInner">
+            <li><span onclick="myActionThree(event)">Local dick (D:)</span></li>
+            <ul id="localDInnerList">
+                <li><span>New Folder 1</span></li>
+                <li><span>New Folder 2</span></li>
+                <li><span>New Folder 3</span></li>
+            </ul>
+        </ul>
+        <ul type="circle" id="localEInner">
+            <li><span onclick="myActionFour(event)">Local dick (E:)</span></li>
+            <ul id="localEInnerList">
+                <li><span>Folder 1</span></li>
+                <li><span>Folder 2</span></li>
+                <li><span>Folder 3</span></li>
+            </ul>
+        </ul>
+    </ul>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

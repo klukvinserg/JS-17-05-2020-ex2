@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    font-size: large;
+}
+
+li :hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#localCInner, #localDInner, #localEInner{
+    display: none;
+}
+
+#localCInnerList, #localDInnerList, #localEInnerList {
+    display: none;
+}
