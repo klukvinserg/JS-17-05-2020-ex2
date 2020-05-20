@@ -5,7 +5,6 @@ let tempThree = 0;
 let tmpFour = 0;
 
 function myActionOne() {
-  console.log(event);
   if (tmp === 0) {
     localCInner.style.display = "block";
     localDInner.style.display = "block";
@@ -23,7 +22,6 @@ function myActionOne() {
 }
 
 function myActionTwo() {
-  console.log(event);
   if (tmpTwo === 0) {
     localCInnerList.style.display = "block";
     tmpTwo = 1;
@@ -34,7 +32,6 @@ function myActionTwo() {
 }
 
 function myActionThree() {
-  console.log(event);
   if (tempThree === 0) {
     localDInnerList.style.display = "block";
     tempThree = 1;
@@ -45,7 +42,6 @@ function myActionThree() {
 }
 
 function myActionFour() {
-  console.log(event);
   if (tmpFour === 0) {
     localEInnerList.style.display = "block";
     tmpFour = 1;
